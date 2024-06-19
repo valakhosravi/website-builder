@@ -1,0 +1,32 @@
+{
+    "type": "div",
+    "props": {
+        "className": "container"
+    },
+    "children": [
+        {
+            "type": "h1",
+            "props": {
+                "className": "header",
+                "style": {
+                    "color": "blue"
+                }
+            },
+            "children": "Welcome to the Dynamic Page"
+        },
+        {
+            "type": "p",
+            "props": {
+                "className": "paragraph"
+            },
+            "children": "This is a dynamically generated paragraph."
+        },
+        {
+            "type": "button",
+            "props": {
+                "onClick": "handleClick"
+            },
+            "children": "Click Me"
+        }
+    ]
+}
